@@ -8,9 +8,18 @@ body{
     padding: 0;
 }
 
+#cabecera{
+    background: #30d;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.55);
+    color: #fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+}
+
 .container{
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
     border: 1px solid #000;
     margin: 0 auto;
@@ -18,4 +27,8 @@ body{
 
 .container h1{
     font-size: 2opx;
+}
+
+.post{
+    padding: 1em;
 }
